@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script language="javaScript">
+    let i;
+    let j;
+    let multi;
+    multi = "<table border='1' width='300' cellspacing='0' cellpadding='3'>";
+    for ( j=1;j<=9;j++){
+        multi +="<tr>";
+        for ( i=2;i<=9;i++){
+            multi +="<td>"+ j+"x"+ i+"=" + i*j + "</td>";
+            }multi +="</tr>";
+    }
+    multi +="</table>";
+    document.write(multi)
+
+</script>
+
+</body>
+</html>
